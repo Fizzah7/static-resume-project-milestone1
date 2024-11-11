@@ -1,0 +1,99 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6f2a57, #e98fbf); /* purple and light pink gradient */ 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Resume Container */
+.resume {
+    background: rgba(255, 233, 231, 0.8); /* Light pinkish background */
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    color: #5b0606; /* Darker maroon text */
+    margin: 20px;
+}
+
+/* Headings Styling */
+h1, h2 {
+    color: #800000; /* Dark maroon */
+    border-bottom: 2px solid #800000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 0;
+    border: 3px solid #800000;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* List Item Styling */
+li {
+    padding: 5px 0;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    background-color: #800000; /* Maroon button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d85252; /* peachy pink on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .resume {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
